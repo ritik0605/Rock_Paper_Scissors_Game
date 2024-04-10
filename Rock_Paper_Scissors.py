@@ -10,16 +10,12 @@
 # # Problem Statement:
 # Traditional games often require physical components and can be played only in person. This project aims to create a digital version of the popular Rock-Paper-Scissors game, providing entertainment and an opportunity for users to engage in a fun activity without the need for physical materials
 
-# # Tools:
-# 
+# # Tools: 
 # Programming Language: Python
 # Libraries: Random (for generating computer choices)
 
-# In[13]:
-
 
 import random
-
 # Prompt the user to enter their choice
 user_choice = int(input("Enter Your choice: Type 0 for Rock, 1 for Paper, 2 for Scissors."))
 
@@ -42,6 +38,3 @@ else:
         print("You lose")  # If computer chooses Rock and user chooses Scissors, user loses
     elif user_choice and computer_choice == 2:
         print("You win.")  # If both user and computer choose Scissors, user wins
-
-    
-
